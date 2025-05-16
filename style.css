@@ -1,0 +1,107 @@
+body{
+    font-family: "Rubik Doodle Shadow", sans-serif;
+    background-color: lightgray;
+    background-image: url("Assets/p1.jpg");
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.weatherform{
+    margin: 20px;
+}
+
+.cityInput{
+    font-family: "Rubik Doodle Shadow", sans-serif;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+button{
+    font-family: "Rubik Doodle Shadow", sans-serif;
+    padding: 10px 17px;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: hsl(122, 39%, 50%);
+    background: linear-gradient(180deg,hsl(210, 72%, 42%),hsl(39, 81%, 44%));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: linear-gradient(180deg,hsl(210, 72%, 22%),hsl(39, 81%, 24%));
+}
+
+.card{
+    background: linear-gradient(-90deg,hsl(210, 71%, 46%),hsl(39, 100%, 54%));
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+h1{
+    margin-top: 0%;
+    margin-bottom: 20px;
+
+}
+
+p{
+    font-size: 1rem;
+    margin: 3px 0;
+
+}
+
+.cityDisplay , .tempDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+
+.cityDisplay{
+    font-size: 3rem;
+    color: blue;
+}
+
+.humdityDisplay{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.descDisplay{
+    font-weight: bold;
+    font-size:1.9rem;
+    color: red;
+
+}
+
+.emoji{
+    margin: 0;
+    font-size: 5.5rem;
+    margin-bottom: 0px;
+}
+
+.errorDisplay{ 
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: red
+}
+
