@@ -1,7 +1,6 @@
 # 🌤️ Weather App
 
-A simple weather application that fetches real-time weather data using the OpenWeatherMap API.
-Users can enter the name of a city or state to get the current weather conditions, including temperature, humidity, and a weather description with an emoji.
+A lightweight and user-friendly weather application that retrieves live weather updates using the OpenWeatherMap API. Simply enter the name of any city or state to view current weather details such as temperature, humidity, and a descriptive forecast accompanied by relevant emojis.
 
 ## 🔧 Features
 
